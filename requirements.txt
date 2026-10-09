@@ -1,0 +1,16 @@
+# Tested layout: Python 3.11 (3.10-3.12 should also work)
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.5.2
+joblib==1.4.2
+matplotlib==3.9.3
+seaborn==0.13.2
+openpyxl==3.1.5
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+httpx==0.28.1
+pytest==8.3.4
+# Optional (M3): uncomment to add XGBoost to the model comparison
+# xgboost==2.1.3

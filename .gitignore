@@ -1,0 +1,31 @@
+```text
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.pytest_cache/
+.env
+logs/
+*.log
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep
+!artifacts/*.joblib
+!artifacts/model_metadata.json
+!artifacts/drift_reference.json
+artifacts_synth/
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+.vite/
+
+# Old frontend backup
+frontend-old/
+```

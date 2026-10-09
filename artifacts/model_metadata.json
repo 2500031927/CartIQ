@@ -1,0 +1,29 @@
+{
+  "basket_value": {
+    "version": "20261008-060414",
+    "model": "random_forest",
+    "trained_at": "2026-10-08T06:04:14.173284+00:00",
+    "validation_mae": 303.1180046867377,
+    "test_mae": 319.9549745803749
+  },
+  "reorder": {
+    "version": "20261008-060529",
+    "model": "random_forest",
+    "calibrated": true,
+    "threshold": 0.3081148608947568,
+    "trained_at": "2026-10-08T06:05:29.922962+00:00",
+    "validation_pr_auc": 0.5845523933097375,
+    "test_pr_auc": 0.6011250453300628
+  },
+  "segmentation": {
+    "version": "20261008-060536",
+    "k": 3,
+    "trained_at": "2026-10-08T06:05:36.790694+00:00",
+    "silhouette": 0.3402271754480406
+  },
+  "anomaly": {
+    "version": "20261008-060541",
+    "trained_at": "2026-10-08T06:05:41.522098+00:00",
+    "contamination": 0.01
+  }
+}
